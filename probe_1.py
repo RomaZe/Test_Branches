@@ -19,6 +19,9 @@ class Child:
 def total(a, b):
     return a + b
 
+x = 5
+y = 5
+z = x + y
 
 day1 = Snow('white', 10)
 igor = Child("Igor")
