@@ -7,12 +7,22 @@ class Snow:
     def __str__(self):
         return "Snow color: {color}, how much: {height}".format(color=self.color, height=self.hight)
 
+class Child:
+
+    def __init__(self, name):
+        self.name = name
+
+    def __str__(self):
+        return "Child name is {}".format(self.name)
+
 
 def total(a, b):
     return a + b
 
 
 day1 = Snow('white', 10)
+igor = Child("Igor")
 print(day1)
+print(igor)
 
 
