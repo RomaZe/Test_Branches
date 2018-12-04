@@ -13,8 +13,6 @@ def total(a, b):
 
 
 day1 = Snow('white', 10)
-x = total(5, 4)
-print(x)
 print(day1)
 
 
